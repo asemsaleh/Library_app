@@ -163,9 +163,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 # STATIC_URL = '/static/'
-# DataFlair Static Files Settings
+# Static Files Settings
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static-files')
-#DataFlair #User_Uploaded_Files
+# #User_Uploaded_Files
 MEDIA_URL = 'media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
+
+# define auto fields 
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
