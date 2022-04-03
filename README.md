@@ -132,7 +132,7 @@ DATABASES = {
 }
 ```
 
-## Example of libraary view 
+## Example of library view 
 ![Library View](https://github.com/asemsaleh/Library_app/blob/main/library%20view.PNG)
 ![Upload View](https://github.com/asemsaleh/Library_app/blob/main/book-upload.PNG)
 
